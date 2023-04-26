@@ -1,0 +1,267 @@
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('../fonts/Source_Sans_Pro/SourceSansPro-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('../fonts/Source_Sans_Pro/SourceSansPro-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('../fonts/Source_Sans_Pro/SourceSansPro-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('../fonts/Source_Sans_Pro/SourceSansPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('../fonts/Source_Sans_Pro/SourceSansPro-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('../fonts/Source_Sans_Pro/SourceSansPro-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('../fonts/Source_Sans_Pro/SourceSansPro-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('../fonts/Source_Sans_Pro/SourceSansPro-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('../fonts/Source_Sans_Pro/SourceSansPro-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('../fonts/Source_Sans_Pro/SourceSansPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('../fonts/Source_Sans_Pro/SourceSansPro-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('../fonts/Source_Sans_Pro/SourceSansPro-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Source Sans 3';
+    src: url('../fonts/Source_Sans_3/SourceSans3-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Sans 3';
+    src: url('../fonts/Source_Sans_3/SourceSans3-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Sans 3';
+    src: url('../fonts/Source_Sans_3/SourceSans3-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Sans 3';
+    src: url('../fonts/Source_Sans_3/SourceSans3-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Sans 3';
+    src: url('../fonts/Source_Sans_3/SourceSans3-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Sans 3';
+    src: url('../fonts/Source_Sans_3/SourceSans3-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Sans 3';
+    src: url('../fonts/Source_Sans_3/SourceSans3-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Sans 3';
+    src: url('../fonts/Source_Sans_3/SourceSans3-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Sans 3';
+    src: url('../fonts/Source_Sans_3/SourceSans3-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Sans 3';
+    src: url('../fonts/Source_Sans_3/SourceSans3-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Sans 3';
+    src: url('../fonts/Source_Sans_3/SourceSans3-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Sans 3';
+    src: url('../fonts/Source_Sans_3/SourceSans3-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Sans 3';
+    src: url('../fonts/Source_Sans_3/SourceSans3-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Sans 3';
+    src: url('../fonts/Source_Sans_3/SourceSans3-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Sans 3';
+    src: url('../fonts/Source_Sans_3/SourceSans3-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Sans 3';
+    src: url('../fonts/Source_Sans_3/SourceSans3-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Signika';
+    src: url('../fonts/Signika/Signika-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Signika';
+    src: url('../fonts/Signika/Signika-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Signika';
+    src: url('../fonts/Signika/Signika-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Signika';
+    src: url('../fonts/Signika/Signika-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Signika';
+    src: url('../fonts/Signika/Signika-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+

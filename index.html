@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/fonts.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/image/logo.png" type="image/x-icon">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11033926883"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'AW-11033926883');
+    </script>
+    <!-- Google tag (gtag.js) -->
+    <!-- Meta Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '465807928872772');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=465807928872772&ev=PageView&noscript=1" />
+    </noscript>
+    <!-- End Meta Pixel Code -->
+    <title>Nura</title>
+</head>
+
+<body>
+
+    <nav class="navabr__main">
+        <div class="navbar__inner container d-flex justify-content-between align-items-center">
+            <div class="navbar__logoLeft">
+                <img src="assets/image/logo.jpg" alt="Logo Left" class="img-fluid">
+            </div>
+            <div class="navbar__logoRight">
+                <img src="assets/image/logoright.svg" alt="Logo Right" class="img-fluid">
+            </div>
+        </div>
+    </nav>
+
+    <section class="banner">
+        <div class="banner__background">
+            <div class="banner__backgroundImage">
+                <div class="swiper bannerSwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="assets/image/banner.png" alt="Banner" class="img-fluid w-100">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/image/banner3.png" alt="Banner" class="img-fluid w-100">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="banner__upperSection">
+                <div class="banner__upperInner">
+                    <div class="main-form">
+                        <div class="main-form-inner">
+                            <div class="main-form-inner-head">
+                                <h1>First step towards a healthier tomorrow</h1>
+                                <p>share your details so that we can connect with you soon</p>
+                            </div>
+                            <div class="main-form-inner-form">
+                                <form id="forms" name="SubmitForm">
+                                    <div class="row">
+                                        <div class="col-md-6 col-12">
+                                            <div class="mb-lg-3 mb-2 inpuFrm">
+                                                <input type="text" class="form-control" name="name" placeholder="Name"
+                                                    id="name" value="">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-12">
+                                            <div class="mb-lg-3 mb-2 inpuFrm">
+                                                <input type="email" class="form-control" name="Email"
+                                                    placeholder="Email" id="email">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-12">
+                                            <div class="mb-lg-3 mb-2 inpuFrm">
+                                                <input type="tel" class="form-control" name="phoneNumber"
+                                                    placeholder="Mobile Number" value="" id="mobilenumber">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-12">
+                                            <div class="mb-lg-3 mb-2 inpuFrm">
+                                                <input type="number" class="form-control" name="age" placeholder="Age"
+                                                    value="" id="age">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 col-sm-6 col-12">
+                                            <div class="selctorOtions-head">
+                                                <p>
+                                                    When was the last time you got a full body health screening?
+                                                </p>
+                                            </div>
+                                            <div class="row mb-lg-3 mb-2 healthScreening">
+                                                <div class="col-md-6">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="radio" value=""
+                                                            name="selectorOption" id="never">
+                                                        <label class="form-check-label" for="never">
+                                                            Never
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="radio" value=""
+                                                            name="selectorOption" id="inthelastyear">
+                                                        <label class="form-check-label" for="inthelastyear">
+                                                            In the last year
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="radio" value=""
+                                                            name="selectorOption" id="lastoneyear">
+                                                        <label class="form-check-label" for="lastoneyear">
+                                                            Not in the last one year
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="radio" value=""
+                                                            name="selectorOption" id="every6months">
+                                                        <label class="form-check-label" for="every6months">
+                                                            Every 6 months
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-12 col-sm-6 col-12 genderSelection">
+                                            <div class="mb-lg-3 mb-2">
+                                                <div class="gender_head">
+                                                    <p>Gender</p>
+                                                </div>
+                                                <div class="d-flex" style="gap:30px;">
+                                                    <div class="formcheck">
+                                                        <input class="form-check-input" type="radio" name="gender"
+                                                            value="male" id="male">
+                                                        <label class="form-check-label" for="male">
+                                                            Male
+                                                        </label>
+                                                    </div>
+                                                    <div class="formcheck">
+                                                        <input class="form-check-input" type="radio" name="gender"
+                                                            value="female" id="female">
+                                                        <label class="form-check-label" for="female">
+                                                            Female
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-12 col-sm-6 col-12 mb-2">
+                                            <div class="verifyForm d-flex">
+                                                <input type="text" id="checkInput">
+                                                <p id="demo" class="m-0 text-white me-2"></p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 col-sm-6 col-12">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    By signing up, I agree to the Terms and Conditions &
+                                                    Privacy Policy
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="text-center pt-xl-4 pt-ms-3 pt-3 d-flex justify-content-between align-items-center">
+                                        <input type="button" value="Submit" id="submitbtn" onclick="onSubmitCLick()"
+                                            disabled>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="happy__guests py-md-5 py-4">
+        <div class="container">
+            <div class="inner__happyGuests">
+                <div class="happyguest__head pb-md-5 pb-3 text-center">
+                    <h2>Hear straight from our happy guests</h2>
+                </div>
+                <div class="happyguest__content">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="happyguest__youtube h-100">
+                                <div class="happyguest__youtubeImage h-100">
+                                    <iframe style="width:100%;height:100%;border-radius:40px;"
+                                        src="https://www.youtube.com/embed/cmPLiuHiEPE" title="YouTube video player"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                        allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="guest__slider pt-md-0 pt-4 ">
+                                <div class="swiper swipers">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div
+                                                class="guest__sliderInner d-flex justify-content-center align-items-center">
+                                                <div class="guest__imageSec">
+                                                    <img src="assets/image/guest1.png" alt="Guest 1" class="img-fluid">
+                                                </div>
+                                                <div class="guest__videoplay">
+                                                    <img src="assets/image/traingle.svg" alt="Traingle"
+                                                        class="img-fluid" data-bs-toggle="modal"
+                                                        data-bs-target="#exampleModal11">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div
+                                                class="guest__sliderInner d-flex justify-content-center align-items-center">
+                                                <div class="guest__imageSec">
+                                                    <img src="assets/image/guest2.png" alt="Guest 1" class="img-fluid">
+                                                </div>
+                                                <div class="guest__videoplay">
+                                                    <img src="assets/image/traingle.svg" alt="Traingle"
+                                                        class="img-fluid" data-bs-toggle="modal"
+                                                        data-bs-target="#exampleModal22">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div
+                                                class="guest__sliderInner d-flex justify-content-center align-items-center">
+                                                <div class="guest__imageSec">
+                                                    <img src="assets/image/guest3.png" alt="Guest 1" class="img-fluid">
+                                                </div>
+                                                <div class="guest__videoplay">
+                                                    <img src="assets/image/traingle.svg" alt="Traingle"
+                                                        class="img-fluid" data-bs-toggle="modal"
+                                                        data-bs-target="#exampleModal33">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div
+                                                class="guest__sliderInner d-flex justify-content-center align-items-center">
+                                                <div class="guest__imageSec">
+                                                    <img src="assets/image/guest4.png" alt="Guest 1" class="img-fluid">
+                                                </div>
+                                                <div class="guest__videoplay">
+                                                    <img src="assets/image/traingle.svg" alt="Traingle"
+                                                        class="img-fluid" data-bs-toggle="modal"
+                                                        data-bs-target="#exampleModal44">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-button-next">
+                                    <img src="assets/image/Vector 1.svg" alt="" class="img-fluid"
+                                        style="transform: rotate(180deg);">
+                                </div>
+                                <div class="swiper-button-prev">
+                                    <img src="assets/image/Vector 1.svg" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="testimonial-modals">
+            <div class="modal fade" id="exampleModal11" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <video style="max-width:500px;width:100%;min-height:500px" controls
+                                src="./assets/videos/testimonial1.mp4" class="newVi"></video>
+
+                            <button class="cancelVideo" data-bs-dismiss="modal">
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="20" cy="20" r="20" fill="white" />
+                                    <line x1="12.6778" y1="12.4009" x2="27.872" y2="27.4336" stroke="black"
+                                        stroke-width="2" />
+                                    <line x1="12.5887" y1="27.7346" x2="27.6214" y2="12.5404" stroke="black"
+                                        stroke-width="2" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="exampleModal22" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <video style="max-width:500px;width:100%;min-height:500px" controls
+                                src="./assets/videos/testimonial2.mp4" class="newVi"></video>
+
+                            <button class="cancelVideo" data-bs-dismiss="modal">
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="20" cy="20" r="20" fill="white" />
+                                    <line x1="12.6778" y1="12.4009" x2="27.872" y2="27.4336" stroke="black"
+                                        stroke-width="2" />
+                                    <line x1="12.5887" y1="27.7346" x2="27.6214" y2="12.5404" stroke="black"
+                                        stroke-width="2" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="exampleModal33" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <video style="max-width:500px;width:100%;min-height:500px" controls
+                                src="./assets/videos/testimonial3.mp4" class="newVi"></video>
+
+                            <button class="cancelVideo" data-bs-dismiss="modal">
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="20" cy="20" r="20" fill="white" />
+                                    <line x1="12.6778" y1="12.4009" x2="27.872" y2="27.4336" stroke="black"
+                                        stroke-width="2" />
+                                    <line x1="12.5887" y1="27.7346" x2="27.6214" y2="12.5404" stroke="black"
+                                        stroke-width="2" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="exampleModal44" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <video style="max-width:500px;width:100%;min-height:500px" controls
+                                src="./assets/videos/testimonial4.mp4" class="newVi"></video>
+
+                            <button class="cancelVideo" data-bs-dismiss="modal">
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="20" cy="20" r="20" fill="white" />
+                                    <line x1="12.6778" y1="12.4009" x2="27.872" y2="27.4336" stroke="black"
+                                        stroke-width="2" />
+                                    <line x1="12.5887" y1="27.7346" x2="27.6214" y2="12.5404" stroke="black"
+                                        stroke-width="2" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="quick__steps pt-md-5 pt-4">
+        <div class="quick__stepsInner">
+            <div class="container">
+                <div class="nura__packagesHeadImage py-lg-5 py-3">
+                    <img src="assets/image/packagesHead.png" alt="Packages Head" class="img-fluid">
+                </div>
+                <div class="nura-slider position-relative py-lg-5 py-4">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="nura-slider-image">
+                                    <img src="assets/image/Group 21.png" alt="Nura Slider Images" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="nura-slider-image">
+                                    <img src="assets/image/Group 22.png" alt="Nura Slider Images" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="nura-slider-image">
+                                    <img src="assets/image/Group 23.png" alt="Nura Slider Images" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="nura-slider-image">
+                                    <img src="assets/image/Group 20.png" alt="Nura Slider Images" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="nura-slider-image">
+                                    <img src="assets/image/Group 21.png" alt="Nura Slider Images" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="nura-slider-image">
+                                    <img src="assets/image/Group 22.png" alt="Nura Slider Images" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="nura-slider-image">
+                                    <img src="assets/image/Group 23.png" alt="Nura Slider Images" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="nura-slider-image">
+                                    <img src="assets/image/Group 20.png" alt="Nura Slider Images" class="img-fluid">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="swiper-button-next1">
+                        <img src="assets/image/Group 24.svg" alt="Next Button">
+                    </div>
+                    <div class="swiper-button-prev1">
+                        <img src="assets/image/Group 24.svg" alt="Prev Button" style="transform:rotate(180deg);">
+                    </div>
+                </div>
+                <div class="packages">
+                    <div class="nura__packagesContent">
+                        <div class="nura__packagesContentHead py-xl-5 py-4 pb-sm-4 pb-0">
+                            <h2>HEALTH SCREENING PACKAGES</h2>
+                        </div>
+                        <div class="nura__packagesContentDivs py-lg-5 py-3">
+                            <div class="row">
+                                <div class="col-md-6 pt-sm-0 pt-3">
+                                    <div class="nura__packagesDiv">
+                                        <div class="nura__packagesInnerDiv">
+                                            <div class="nura__packagesdivHead">
+                                                <img src="assets/image/packagesHeadBanner.png"
+                                                    alt="Packages Head Banner" class="img-fluid w-100">
+                                                <h3>NURA MEN</h3>
+                                            </div>
+                                            <div class="nura__packagesInnerContent text-center">
+                                                <p>15+ Organs Screened<span>₹18,000 /-</span></p>
+                                                <p class="nura__Innercontentlink">
+                                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                                        data-bs-target="#exampleModal">
+                                                        LEARN MORE
+                                                    </button>
+
+                                                <div class="modal fade" id="exampleModal" tabindex="-1"
+                                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                    <div class="modal-dialog">
+                                                        <div class="modal-content">
+                                                            <div class="special-card">
+                                                                <div class="special-card-img">
+                                                                    <img src="assets/image/special-1.png" alt="Special"
+                                                                        class="img-fluid">
+                                                                </div>
+                                                                <div class="special-card-content p-lg-4 p-md-3 p-3">
+                                                                    <h3>A full-body AI Health Screening in just 120
+                                                                        Mins*
+                                                                    </h3>
+                                                                    <p class="special-eligibility">Eligibility
+                                                                        Criteria:
+                                                                        <span>Age above 20 years</span>
+                                                                    </p>
+                                                                    <hr>
+                                                                    <p class="disease-description">Coronary Heart
+                                                                        Disease,
+                                                                        Emphysema COPD, Osteoporosis,
+                                                                        Full
+                                                                        Body Composition, Blood Pressure, Diabetes,
+                                                                        Heart
+                                                                        and
+                                                                        Brain Vessel Health, Liver
+                                                                        Health,
+                                                                        Kidney Health, Complete Blood Count
+                                                                    </p>
+                                                                    <p class="screening-special">Cancer Screening
+                                                                        Lung,
+                                                                        Colon,
+                                                                        Oral, Prostate</p>
+                                                                    <p class="doctor-consult">Doctor's Consultation
+                                                                    </p>
+                                                                    <div class="book-now-special px-3">
+                                                                        <a data-bs-dismiss="modal">
+                                                                            <p class="book-now" onclick="onBookNOw()">
+                                                                                Book Now
+                                                                                <span class="d-flex align-items-center">
+                                                                                    <span
+                                                                                        class="slashed_price">₹18,000/-</span>
+                                                                                </span>
+                                                                            </p>
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=" col-md-6 pt-sm-0 pt-3">
+                                    <div class="nura__packagesDiv ms-auto">
+                                        <div class="nura__packagesInnerDiv">
+                                            <div class="nura__packagesdivHead">
+                                                <img src="assets/image/packagesHeadBanner.png"
+                                                    alt="Packages Head Banner" class="img-fluid w-100">
+                                                <h3>NURA WOMEN</h3>
+                                            </div>
+                                            <div class="nura__packagesInnerContent text-center">
+                                                <p>15+ Organs Screened<span>₹18,000
+                                                        /-</span></p>
+                                                <p class="nura__Innercontentlink">
+                                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                                        data-bs-target="#exampleModal1">
+                                                        LEARN MORE
+                                                    </button>
+
+                                                <div class="modal fade" id="exampleModal1" tabindex="-1"
+                                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                    <div class="modal-dialog">
+                                                        <div class="modal-content">
+                                                            <div class="special-card">
+                                                                <div class="special-card-img">
+                                                                    <img src="assets/image/special-2.png" alt="Special"
+                                                                        class="img-fluid">
+                                                                </div>
+                                                                <div class="special-card-content p-lg-4 p-md-3 p-3">
+                                                                    <h3>A full-body AI Health Screening in just 120
+                                                                        Mins*</h3>
+                                                                    <p class="special-eligibility">Eligibility
+                                                                        Criteria: <span>Age above 20 years</span>
+                                                                    </p>
+                                                                    <hr>
+                                                                    <p class="disease-description">Coronary Heart
+                                                                        Disease, Emphysema COPD, Osteoporosis,
+                                                                        Full
+                                                                        Body Composition, Blood Pressure, Diabetes,
+                                                                        Heart and Brain Vessel Health, Liver
+                                                                        Health,
+                                                                        Kidney Health, Complete Blood Count
+                                                                    </p>
+                                                                    <p class="screening-special">Cancer Screening
+                                                                        Lung, Colon, Oral</p>
+                                                                    <p class="doctor-consult">Doctor's Consultation
+                                                                    </p>
+                                                                    <div class="book-now-special px-3">
+                                                                        <a data-bs-dismiss="modal">
+                                                                            <p class="book-now" onclick="onBookNOw()">
+                                                                                Book Now
+                                                                                <span class="d-flex align-items-center">
+                                                                                    <span
+                                                                                        class="slashed_price">₹18,000/-</span>
+                                                                                </span>
+                                                                            </p>
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 pt-md-5 pt-3">
+                                    <div class="nura__packagesDiv">
+                                        <div class="nura__packagesInnerDiv">
+                                            <div class="nura__packagesdivHead">
+                                                <img src="assets/image/packagesHeadBanner.png"
+                                                    alt="Packages Head Banner" class="img-fluid w-100">
+                                                <h3>HEART HEALTH</h3>
+                                            </div>
+                                            <div class="nura__packagesInnerContent text-center">
+                                                <p>Comprehensive Ai <br>
+                                                    Heart Screening<span>₹9,000 /-</span></p>
+                                                <p class="nura__Innercontentlink">
+                                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                                        data-bs-target="#exampleModal2">
+                                                        LEARN MORE
+                                                    </button>
+
+                                                <div class="modal fade" id="exampleModal2" tabindex="-1"
+                                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                    <div class="modal-dialog">
+                                                        <div class="modal-content">
+                                                            <div class="special-card">
+                                                                <div class="special-card-img">
+                                                                    <img src="assets/image/special-4.png" alt="Special"
+                                                                        class="img-fluid">
+                                                                </div>
+                                                                <div class="special-card-content p-lg-4 p-md-3 p-3">
+                                                                    <h3>HEART HEALTH</h3>
+                                                                    <p class="special-eligibility">25 Mins*
+                                                                    </p>
+                                                                    <hr>
+                                                                    <p class="disease-description">Coronary heart
+                                                                        disease</p>
+                                                                    <p class="screening-special">To detect coronary
+                                                                        heart disease at the earliest</p>
+                                                                    <div class="book-now-special px-3">
+                                                                        <a data-bs-dismiss="modal">
+                                                                            <p class="book-now" onclick="onBookNOw()">
+                                                                                Book Now
+                                                                                <span class="d-flex align-items-center">
+                                                                                    <span
+                                                                                        class="slashed_price">₹9,000/-</span>
+                                                                                </span>
+                                                                            </p>
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 pt-md-5 pt-3">
+                                    <div class="nura__packagesDiv ms-auto">
+                                        <div class="nura__packagesInnerDiv">
+                                            <div class="nura__packagesdivHead">
+                                                <img src="assets/image/packagesHeadBanner.png"
+                                                    alt="Packages Head Banner" class="img-fluid w-100">
+                                                <h3>WELL WOMEN</h3>
+                                            </div>
+                                            <div class="nura__packagesInnerContent text-center">
+                                                <p>Comprehensive Breast & <br> Cervical Cancer Screening<span>₹6,000
+                                                        /-</span></p>
+                                                <p class="nura__Innercontentlink">
+                                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                                        data-bs-target="#exampleModal4">
+                                                        LEARN MORE
+                                                    </button>
+                                                <div class="modal fade" id="exampleModal4" tabindex="-1"
+                                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                    <div class="modal-dialog">
+                                                        <div class="modal-content">
+                                                            <div class="special-card">
+                                                                <div class="special-card-img">
+                                                                    <img src="assets/image/special-3.png" alt="Special"
+                                                                        class="img-fluid">
+                                                                </div>
+                                                                <div class="special-card-content p-lg-4 p-md-3 p-3">
+                                                                    <h3>Nura Well Women Screening</h3>
+                                                                    <p class="special-eligibility">60 Mins*</p>
+                                                                    <hr>
+                                                                    <p class="disease-description">Cancer Screening
+                                                                    </p>
+                                                                    <p class="screening-special">Breast, Cervical
+                                                                    </p>
+                                                                    <div class="book-now-special px-3">
+                                                                        <a data-bs-dismiss="modal">
+                                                                            <p class="book-now" onclick="onBookNOw()">
+                                                                                Book Now
+                                                                                <span class="d-flex align-items-center">
+                                                                                    <span
+                                                                                        class="slashed_price">₹6,000/-</span>
+                                                                                </span>
+                                                                            </p>
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="quick__stepsBgImage text-center pt-lg-0 pt-4">
+                <img src="assets/image/quick-step.png" alt="Qucik Steps" class="img-fluid">
+            </div>
+        </div>
+    </section>
+
+    <section class="why__nura py-md-5 py-4">
+        <div class="container">
+            <div class="why__nuraHead pb-md-5 pb-4 text-center">
+                <h2>Why nura?</h2>
+            </div>
+            <div class="why__nuraContent">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="why__nuraContentMain d-flex">
+                            <div class="why__nuraImage">
+                                <img src="assets/image/time.png" alt="img-fluid">
+                            </div>
+                            <div class="why__nuraContentInner">
+                                <h3>Takes just 120 minutes</h3>
+                                <p>Our comprehensive Ai powered preventive screening takes just 120 minutes.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 pt-md-0 pt-3">
+                        <div class="why__nuraContentMain d-flex">
+                            <div class="why__nuraImage">
+                                <img src="assets/image/report.png" alt="img-fluid">
+                            </div>
+                            <div class="why__nuraContentInner">
+                                <h3>Easy to understand and easy to access reports</h3>
+                                <p>You receive a comprehensive health report on the same day that you won’t need a
+                                    doctor to decipher for you.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 pt-sm-3 pt-3">
+                        <div class="why__nuraContentMain d-flex">
+                            <div class="why__nuraImage">
+                                <img src="assets/image/gender.png" alt="img-fluid">
+                            </div>
+                            <div class="why__nuraContentInner">
+                                <h3>Gender-specific screening packages</h3>
+                                <p>Our packages include tests for the most common cancers and lifestyle diseases in men
+                                    and women.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 pt-sm-3 pt-3">
+                        <div class="why__nuraContentMain d-flex">
+                            <div class="why__nuraImage">
+                                <img src="assets/image/chair.png" alt="img-fluid">
+                            </div>
+                            <div class="why__nuraContentInner">
+                                <h3>Interiors designed for your comfort</h3>
+                                <p>Walk into a luxurious space that’s unlike any other healthcare centre you’ve
+                                    experienced before.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="nura__faq pt-5">
+                <div class="nura__faqHead">
+                    <center>
+                        <h3>FAQS</h3>
+                    </center>
+                </div>
+                <div class="accordion" id="accordionExample">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer_Main">
+            <div class="footer__main py-4">
+                <div class="container">
+                    <div class="footer__head">
+                        <img src="assets/image/footerHead.png" alt="" class="img-fluid w-25">
+                    </div>
+
+                    <div class="footer__bar d-flex py-4">
+                        <div class="footer__logoLeft">
+                            <img src="assets/image/logo.jpg" alt="Logo Left" class="img-fluid">
+                        </div>
+                        <div class="footer__logoRight">
+                            <img src="assets/image/logoright.svg" alt="Logo Right" class="img-fluid w-100">
+                        </div>
+                    </div>
+
+                    <div class="footer__lists d-flex flex-wrap">
+                        <div class="footer__list">
+                            <div class="footer__listHead">
+                                <h3>About us</h3>
+                                <p>Nura is a collaboration between Fujifilm, world leaders in cutting edge
+                                    intelligent imaging and medical technologies and Dr Kutty's Healthcare, an
+                                    institution with deep roots in the healthcare space.</p>
+                            </div>
+                        </div>
+                        <div class="footer__list">
+                            <div class="footer__listHead">
+                                <h3>Packages</h3>
+                                <ul class="footer__packages list-unstyled d-flex">
+                                    <li class="list-item">
+                                        <a href="#">Nura Men</a>
+                                    </li>
+                                    <li class="list-item">
+                                        <a href="#"> Nura Woman</a>
+                                    </li>
+                                    <li class="list-item">
+                                        <a href="#"> Well Woman</a>
+                                    </li>
+                                    <li class="list-item">
+                                        <a href="#">Heart Health</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="footer__list center_list">
+                            <div class="footer__listHead center_listInner">
+                                <h3>Our Centres</h3>
+                                <ul class="footer__ourCenter list-unstyled d-flex flex-wrap justify-content-between">
+                                    <div class="accordion" id="accordionExample1">
+                                    </div>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="footer__subscribe">
+                        <div
+                            class="footer__subscribeSection d-flex justify-content-between flex-wrap align-items-center">
+                            <div class="footer__subscribeInner">
+                                <div class="footer__subscribeHead">
+                                    <h4>Subscribe to our emailers</h4>
+                                    <form class="py-4">
+                                        <input type="text" placeholder="Enter your email">
+                                        <button>Submit</button>
+                                    </form>
+
+                                    <div class="footer__socialIcons pb-4">
+                                        <div class="footer__socialInner d-flex">
+                                            <a href="">
+                                                <img src="assets/image/facebook.svg" alt="Facebook" class="img-fluid">
+                                            </a>
+                                            <a href="">
+                                                <img src="assets/image/instagram.svg" alt="Instagram" class="img-fluid">
+                                            </a>
+                                            <a href="">
+                                                <img src="assets/image/youtube.svg" alt="Youtube" class="img-fluid">
+
+                                            </a>
+                                            <a href="">
+                                                <img src="assets/image/linkedin.svg" alt="Linkedin" class="img-fluid">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer__getdirectionSec">
+                                <div class="footer__getdirectionHead">
+                                    <h4>Get Directions</h4>
+                                </div>
+                                <div class="footer__directiondiv">
+                                    <iframe
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.5811009805234!2d77.09260441539404!3d28.46204148248537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d19f81dd8154f%3A0x1b4587f9bc0a263d!2sNura%20Ai%20Health%20Screening%20Center%2C%20Gurugram!5e0!3m2!1sen!2sin!4v1677501068025!5m2!1sen!2sin"
+                                        width="350px" height="250" style="border:0;max-width:450px;width:100%;"
+                                        allowfullscreen="" loading="lazy"
+                                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+</body>
+
+</html>

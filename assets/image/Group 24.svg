@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="56" height="56" viewBox="0 0 56 56">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-opacity: 0.7;
+        stroke-linejoin: round;
+        stroke-opacity: 0.75;
+        stroke: url(#linear-gradient);
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 3px;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #484848;
+        fill-rule: evenodd;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="51.659" y1="52.5" x2="4.341" y2="3.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#316968"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+  </defs>
+  <circle class="cls-1" cx="28" cy="28" r="24.5"/>
+  <path class="cls-2" d="M1828.36,6948.87l14.11,14.11-12.83,12.84" transform="translate(-1806.5 -6935.5)"/>
+</svg>
